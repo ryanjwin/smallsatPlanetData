@@ -1,4 +1,4 @@
-Region Name,Polygon Coordinates,Dates,Cloud Coverage,Item Type
+Region Name,Polygon Coordinates,Dates,Cloud Coverage,Item Type,Asset Type
 Elson Lagoon Coastal 2016,"{""type"": ""Polygon"",""coordinates"": [
           [
             [
@@ -38,14 +38,13 @@ Elson Lagoon Coastal 2016,"{""type"": ""Polygon"",""coordinates"": [
     ""gte"": ""2016-05-01T00:00:00.000Z"",
     ""lte"": ""2016-10-01T00:00:00.000Z""
   }
-}
-","{
+}","{
     ""type"": ""RangeFilter"",
     ""field_name"":""cloud_cover"",
     ""config"":{
-      ""lte"": 0.1
+      ""lte"": 0.02
     }
-}",PSScene4Band
+}",PSScene,ortho_analytic_8b_sr ortho_analytic_4b_sr
 Elson Lagoon Coastal 2017,"{""type"": ""Polygon"",""coordinates"": [
           [
             [
@@ -89,9 +88,9 @@ Elson Lagoon Coastal 2017,"{""type"": ""Polygon"",""coordinates"": [
     ""type"": ""RangeFilter"",
     ""field_name"":""cloud_cover"",
     ""config"":{
-      ""lte"": 0.1
+      ""lte"": 0.02
     }
-}",PSScene4Band
+}",PSScene,ortho_analytic_8b_sr ortho_analytic_4b_sr
 Elson Lagoon Coastal 2018,"{""type"": ""Polygon"",""coordinates"": [
           [
             [
@@ -131,14 +130,13 @@ Elson Lagoon Coastal 2018,"{""type"": ""Polygon"",""coordinates"": [
     ""gte"": ""2018-05-01T00:00:00.000Z"",
     ""lte"": ""2018-10-01T00:00:00.000Z""
   }
-}
-","{
+}","{
     ""type"": ""RangeFilter"",
     ""field_name"":""cloud_cover"",
     ""config"":{
-      ""lte"": 0.1
+      ""lte"": 0.02
     }
-}",PSScene4Band
+}",PSScene,ortho_analytic_8b_sr ortho_analytic_4b_sr
 Elson Lagoon Coastal 2019,"{""type"": ""Polygon"",""coordinates"": [
           [
             [
@@ -178,14 +176,13 @@ Elson Lagoon Coastal 2019,"{""type"": ""Polygon"",""coordinates"": [
     ""gte"": ""2019-05-01T00:00:00.000Z"",
     ""lte"": ""2019-10-01T00:00:00.000Z""
   }
-}
-","{
+}","{
     ""type"": ""RangeFilter"",
     ""field_name"":""cloud_cover"",
     ""config"":{
-      ""lte"": 0.1
+      ""lte"": 0.02
     }
-}",PSScene4Band
+}",PSScene,ortho_analytic_8b_sr ortho_analytic_4b_sr
 Elson Lagoon Coastal 2020,"{""type"": ""Polygon"",""coordinates"": [
           [
             [
@@ -225,14 +222,13 @@ Elson Lagoon Coastal 2020,"{""type"": ""Polygon"",""coordinates"": [
     ""gte"": ""2020-05-01T00:00:00.000Z"",
     ""lte"": ""2020-10-01T00:00:00.000Z""
   }
-}
-","{
+}","{
     ""type"": ""RangeFilter"",
     ""field_name"":""cloud_cover"",
     ""config"":{
-      ""lte"": 0.1
+      ""lte"": 0.02
     }
-}",PSScene4Band
+}",PSScene,ortho_analytic_8b_sr ortho_analytic_4b_sr
 Elson Lagoon Coastal 2021,"{""type"": ""Polygon"",""coordinates"": [
           [
             [
@@ -272,11 +268,10 @@ Elson Lagoon Coastal 2021,"{""type"": ""Polygon"",""coordinates"": [
     ""gte"": ""2021-05-01T00:00:00.000Z"",
     ""lte"": ""2021-10-01T00:00:00.000Z""
   }
-}
-","{
+}","{
     ""type"": ""RangeFilter"",
     ""field_name"":""cloud_cover"",
     ""config"":{
-      ""lte"": 0.1
+      ""lte"": 0.02
     }
-}",PSScene4Band
+}",PSScene,ortho_analytic_8b_sr ortho_analytic_4b_sr
