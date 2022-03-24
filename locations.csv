@@ -1,5 +1,5 @@
 Region Name,Polygon Coordinates,Dates,Cloud Coverage,Item Type
-Elson Lagoon Coastal,"{""type"": ""Polygon"",""coordinates"": [
+Elson Lagoon Coastal 2016,"{""type"": ""Polygon"",""coordinates"": [
           [
             [
               -158.7744140625,
@@ -46,7 +46,7 @@ Elson Lagoon Coastal,"{""type"": ""Polygon"",""coordinates"": [
       ""lte"": 0.1
     }
 }",PSScene4Band
-Elson Lagoon Coastal,"{""type"": ""Polygon"",""coordinates"": [
+Elson Lagoon Coastal 2017,"{""type"": ""Polygon"",""coordinates"": [
           [
             [
               -158.7744140625,
@@ -92,7 +92,7 @@ Elson Lagoon Coastal,"{""type"": ""Polygon"",""coordinates"": [
       ""lte"": 0.1
     }
 }",PSScene4Band
-Elson Lagoon Coastal,"{""type"": ""Polygon"",""coordinates"": [
+Elson Lagoon Coastal 2018,"{""type"": ""Polygon"",""coordinates"": [
           [
             [
               -158.7744140625,
@@ -139,7 +139,7 @@ Elson Lagoon Coastal,"{""type"": ""Polygon"",""coordinates"": [
       ""lte"": 0.1
     }
 }",PSScene4Band
-Elson Lagoon Coastal,"{""type"": ""Polygon"",""coordinates"": [
+Elson Lagoon Coastal 2019,"{""type"": ""Polygon"",""coordinates"": [
           [
             [
               -158.7744140625,
@@ -186,7 +186,7 @@ Elson Lagoon Coastal,"{""type"": ""Polygon"",""coordinates"": [
       ""lte"": 0.1
     }
 }",PSScene4Band
-Elson Lagoon Coastal,"{""type"": ""Polygon"",""coordinates"": [
+Elson Lagoon Coastal 2020,"{""type"": ""Polygon"",""coordinates"": [
           [
             [
               -158.7744140625,
@@ -233,7 +233,7 @@ Elson Lagoon Coastal,"{""type"": ""Polygon"",""coordinates"": [
       ""lte"": 0.1
     }
 }",PSScene4Band
-Elson Lagoon Coastal,"{""type"": ""Polygon"",""coordinates"": [
+Elson Lagoon Coastal 2021,"{""type"": ""Polygon"",""coordinates"": [
           [
             [
               -158.7744140625,
