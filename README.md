@@ -37,6 +37,7 @@ Using this tool, navigate to the region of interest and select the polygon tool 
 After drawing the region, copy the json on the right from the first opening curly braces after “geometry” to the first closing curly brace.
 
 ![Using polygon 1](https://github.com/ryanjwin/smallsatPlanetData/blob/main/images/Screen%20Shot%202022-04-16%20at%201.14.46%20PM.png?raw=True)
+
 ![Using polygon 2](https://github.com/ryanjwin/smallsatPlanetData/blob/main/images/Screen%20Shot%202022-04-16%20at%201.14.52%20PM.png?raw=True)
 
 Next, use the csv file titled "locations.csv" to enter in the regions of interest for the order, each region will be a seperate order.
@@ -47,12 +48,16 @@ Paste this json into the csv file under “Polygon Coordinates”.
 ![CSV polygon](https://github.com/ryanjwin/smallsatPlanetData/blob/main/images/Screen%20Shot%202022-04-16%20at%201.14.59%20PM.png?raw=True)
 
 Modify the json in the Dates column of the csv. Putting the beginning date following the “gte” and the end date following the “lte”. To avoid any issues, it is best to use the first of every month instead of the last day of the month.
+
+
 ![CSV dates](https://github.com/ryanjwin/smallsatPlanetData/blob/main/images/Screen%20Shot%202022-04-16%20at%201.15.04%20PM.png?raw=True)
 
 Modify the json in the Code Coverage column. Replacing the number after “lte” with the desired cloud coverage
+
 ![CSV clouds](https://github.com/ryanjwin/smallsatPlanetData/blob/main/images/Screen%20Shot%202022-04-16%20at%201.15.11%20PM.png?raw=True)
 
 Finally change the desired Item Type. In most cases it should be “PSScene”. Under asset type enter all the assets that you would like to select **separated by one space**. [Here](https://developers.planet.com/docs/data/psscene/) is a list of all available asset types for PSScene.
+
 
 ![CSV asset type](https://github.com/ryanjwin/smallsatPlanetData/blob/main/images/Screen%20Shot%202022-04-16%20at%201.15.17%20PM.png?raw=True)
 
