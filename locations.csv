@@ -1,4 +1,4 @@
-Region Name,Polygon Coordinates,Dates,Cloud Coverage,Item Type,Asset Type
+Region Name,Polygon Coordinates,Dates,Cloud Coverage,Item Type,Asset Type,Product Bundle
 Elson Lagoon Coastal 2016,"{""type"": ""Polygon"",""coordinates"": [
           [
             [
@@ -44,7 +44,7 @@ Elson Lagoon Coastal 2016,"{""type"": ""Polygon"",""coordinates"": [
     ""config"":{
       ""lte"": 0.02
     }
-}",PSScene,ortho_analytic_8b_sr ortho_analytic_4b_sr
+}",PSScene,ortho_analytic_8b_sr ortho_analytic_4b_sr,analytic_8b_sr_udm2 analytic_sr_udm2
 Elson Lagoon Coastal 2017,"{""type"": ""Polygon"",""coordinates"": [
           [
             [
@@ -90,7 +90,7 @@ Elson Lagoon Coastal 2017,"{""type"": ""Polygon"",""coordinates"": [
     ""config"":{
       ""lte"": 0.02
     }
-}",PSScene,ortho_analytic_8b_sr ortho_analytic_4b_sr
+}",PSScene,ortho_analytic_8b_sr ortho_analytic_4b_sr,analytic_8b_sr_udm2 analytic_sr_udm2
 Elson Lagoon Coastal 2018,"{""type"": ""Polygon"",""coordinates"": [
           [
             [
@@ -136,7 +136,7 @@ Elson Lagoon Coastal 2018,"{""type"": ""Polygon"",""coordinates"": [
     ""config"":{
       ""lte"": 0.02
     }
-}",PSScene,ortho_analytic_8b_sr ortho_analytic_4b_sr
+}",PSScene,ortho_analytic_8b_sr ortho_analytic_4b_sr,analytic_8b_sr_udm2 analytic_sr_udm2
 Elson Lagoon Coastal 2019,"{""type"": ""Polygon"",""coordinates"": [
           [
             [
@@ -182,7 +182,7 @@ Elson Lagoon Coastal 2019,"{""type"": ""Polygon"",""coordinates"": [
     ""config"":{
       ""lte"": 0.02
     }
-}",PSScene,ortho_analytic_8b_sr ortho_analytic_4b_sr
+}",PSScene,ortho_analytic_8b_sr ortho_analytic_4b_sr,analytic_8b_sr_udm2 analytic_sr_udm2
 Elson Lagoon Coastal 2020,"{""type"": ""Polygon"",""coordinates"": [
           [
             [
@@ -228,7 +228,7 @@ Elson Lagoon Coastal 2020,"{""type"": ""Polygon"",""coordinates"": [
     ""config"":{
       ""lte"": 0.02
     }
-}",PSScene,ortho_analytic_8b_sr ortho_analytic_4b_sr
+}",PSScene,ortho_analytic_8b_sr ortho_analytic_4b_sr,analytic_8b_sr_udm2 analytic_sr_udm2
 Elson Lagoon Coastal 2021,"{""type"": ""Polygon"",""coordinates"": [
           [
             [
@@ -274,4 +274,4 @@ Elson Lagoon Coastal 2021,"{""type"": ""Polygon"",""coordinates"": [
     ""config"":{
       ""lte"": 0.02
     }
-}",PSScene,ortho_analytic_8b_sr ortho_analytic_4b_sr
+}",PSScene,ortho_analytic_8b_sr ortho_analytic_4b_sr,analytic_8b_sr_udm2 analytic_sr_udm2
