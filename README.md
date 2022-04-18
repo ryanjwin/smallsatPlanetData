@@ -28,6 +28,8 @@ Save the Planet API Key as an environment variable. To do so create a .env in th
 
 `PLANET_API_KEY=replace-with-api-key`
 
+# Defining Regions of Interest
+
 After initial setup, coordinates of regions of interest must be aquired. To aquire these a free online tool, [geojson](http://geojson.io), is available. 
 
 Using this tool, navigate to the region of interest and select the polygon tool to began drawing a polygon overlay on the image.
@@ -45,6 +47,7 @@ Next, use the csv file titled "locations.csv" to enter in the regions of interes
 First, give a proper name to the region, include the year that you are seeking data from.
 
 Paste this json into the csv file under “Polygon Coordinates”.
+
 ![CSV polygon](https://github.com/ryanjwin/smallsatPlanetData/blob/main/images/Screen%20Shot%202022-04-16%20at%201.14.59%20PM.png?raw=True)
 
 Modify the json in the Dates column of the csv. Putting the beginning date following the “gte” and the end date following the “lte”. To avoid any issues, it is best to use the first of every month instead of the last day of the month.
@@ -56,11 +59,16 @@ Modify the json in the Code Coverage column. Replacing the number after “lte�
 
 ![CSV clouds](https://github.com/ryanjwin/smallsatPlanetData/blob/main/images/Screen%20Shot%202022-04-16%20at%201.15.11%20PM.png?raw=True)
 
-Finally change the desired Item Type. In most cases it should be “PSScene”. Under asset type enter all the assets that you would like to select **separated by one space**. [Here](https://developers.planet.com/docs/data/psscene/) is a list of all available asset types for PSScene.
+Optionally, change the desired Item Type. In most cases it should be “PSScene”. 
+
+Under asset type enter all the assets that you would like to select **separated by one space**. [Here](https://developers.planet.com/docs/data/psscene/) is a list of all available asset types for PSScene.
 
 
 ![CSV asset type](https://github.com/ryanjwin/smallsatPlanetData/blob/main/images/Screen%20Shot%202022-04-16%20at%201.15.17%20PM.png?raw=True)
 
+Finally, define the desired product bundles. The bundles used must include the asset_type that is being specified.  Enter them **seperated by one space**.  **In the same order corresponding to the asset types**.  [Here](https://developers.planet.com/docs/orders/product-bundles-reference/) is a list of the product bundles and what asset types are included with each.
 
+![CSV product bundle](https://github.com/ryanjwin/smallsatPlanetData/blob/main/images/Screen%20Shot%202022-04-18%20at%205.49.15%20PM.png?raw=True)
 
-# Rest of documentation pending finalization of notebook
+# Placing and downloading orders
+
