@@ -4,7 +4,7 @@
 
 > Undergraduate Student at the University of Texas at El Paso
 
-> Last Updated April 16, 2022
+> Last Updated April 19, 2022
 
 ## Getting started
 The code uses Python3 and the following libraries:
