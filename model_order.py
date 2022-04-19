@@ -74,11 +74,11 @@ def get_item_ids(region):
 
 # create products for order request
 def create_products(region):
-    for i, bundle in enumerate(region.product_bundles):
+    for i, asset_type in enumerate(region.asset_types):
         region.products.append({
-            "item_ids":region.ids[i],
+            "item_ids":region.ids[asset_type],
             "item_type":region.item_type,
-            "product_bundle":bundle
+            "product_bundle":region.product_bundles[i]
         })
 def create_order(region):
     order = {
