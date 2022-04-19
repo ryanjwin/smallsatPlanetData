@@ -72,3 +72,15 @@ Finally, define the desired product bundles. The bundles used must include the a
 
 # Placing and downloading orders
 
+To place orders, execute the first code cell in the main notebook.  This will print out the response code for each request.  Typically, a 2XX code indicates a successful order, the order id will also be displayed.
+
+An email will be sent to the address that is linked to the api key when they order is ready to be downloaded.
+
+
+![Email Notification](https://github.com/ryanjwin/smallsatPlanetData/blob/main/images/Screen%20Shot%202022-04-19%20at%201.44.38%20PM.png?raw=True)
+
+The order status can also be polled by viewing the *My Orders* section of the Planet Account dashboard. *Success* means the order is ready to be downloaded, while *running* indicates the order is still being processed.
+
+![My Orders](https://github.com/ryanjwin/smallsatPlanetData/blob/main/images/Screen%20Shot%202022-04-19%20at%201.43.24%20PM.png?raw=True)
+
+The order can be downloaded by either running the download code cell, clicking on the link in the email or by downloading from the *My Orders* dashboard.
